@@ -118,7 +118,7 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签<span class="badge">1</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签<span class="badge">2</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
@@ -128,7 +128,7 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档<span class="badge">4</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档<span class="badge">5</span></a>
 
   </li>
   </ul>
@@ -157,6 +157,74 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/03/02/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E5%9B%9B%EF%BC%89/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="Miracle">
+      <meta itemprop="description" content="No pains，no gains">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Mirac1e's blogs">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/03/02/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E5%9B%9B%EF%BC%89/" class="post-title-link" itemprop="url">Java基础知识复习整理（四）</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-03-02 20:04:34 / 修改时间：21:08:45" itemprop="dateCreated datePublished" datetime="2020-03-02T20:04:34+08:00">2020-03-02</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h2><p>接口不是类，而是对类的一组需求描述，这些类要遵从接口描述的统一格式进行定义。</p>
+<p>接口中所有的方法都自动地属于public，因此在接口中声明方法时不必提供关键字public。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//Java中的Comparable接口</span></span><br><span class="line"><span class="comment">//该接口只有一个方法，有些接口可能包含多个方法，还可以定义常量</span></span><br><span class="line"><span class="comment">//接口不能有实例域！原则上也不能有静态方法，但是Java SE 8中允许在接口中增加静态方法</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Comparable</span>&lt;<span class="title">T</span>&gt;</span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">CompareTo</span><span class="params">(T other)</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/03/02/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E5%9B%9B%EF%BC%89/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/03/01/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E4%B8%89%EF%BC%89/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -180,10 +248,16 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-03-01 20:02:09 / 修改时间：20:11:04" itemprop="dateCreated datePublished" datetime="2020-03-01T20:02:09+08:00">2020-03-01</time>
+              <time title="创建时间：2020-03-01 20:02:09" itemprop="dateCreated datePublished" datetime="2020-03-01T20:02:09+08:00">2020-03-01</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-03-02 20:19:17" itemprop="dateModified" datetime="2020-03-02T20:19:17+08:00">2020-03-02</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
@@ -213,89 +287,14 @@
 <li>Java 的继承是单继承，但是可以多重继承，单继承就是一个子类只能继承一个父类，多重继承就是，例如 A 类继承 B 类，B 类继承 C 类，所以按照关系就是 C 类是 B 类的父类，B 类是 A 类的父类，这是 Java 继承区别于 C++ 继承的一个特性。</li>
 <li>提高了类之间的耦合性（继承的缺点，耦合度高就会造成代码之间的联系越紧密，代码独立性越差）。</li>
 </ul>
-<h2 id="覆盖方法"><a href="#覆盖方法" class="headerlink" title="覆盖方法"></a>覆盖方法</h2><p>子类一般只是继承了父类的特征，而往往我们定义的子类都有自己新的特征。所以有时候需要修改父类的某些方法，这个过程叫做重写(override)。但是子类的方法并不能访问父类的私有域，尽管子类从父类中继承了这个域，也只有父类的方法才能访问私有部分。所以子类要想访问私有域，就需要私有公有的接口。但是子类也有这个方法，为了区分，需要使用super关键字。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getAge</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">super</span>.getAge();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>同样因为这个原因，子类的构造器再给私有域赋值时，可以使用super关键字调用父类的构造方法，但是不需要加上方法名。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="title">Student</span><span class="params">(String name,<span class="keyword">int</span> age)</span></span>&#123;</span><br><span class="line">	<span class="keyword">super</span>(name,age);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h2><p>多态是Java的重要特征之一。</p>
-<p>继承关系是”is-a”关系，表明子类的每个对象也是父类的对象，程序中出现超类对象的任何地方都可以用子类对象置换。</p>
-<h3 id="方法调用"><a href="#方法调用" class="headerlink" title="方法调用"></a>方法调用</h3><p>多态经常体现在方法调用的时候。最简单的，如重载，方法有着相同的方法名，但是参数列表不同，这时候编译器会根据参数列表去匹配决定调用哪一个方法，这个过程是静态的，叫做静态绑定。</p>
-<p>还有一种更加复杂的情况是父类引用指向子类对象。看如下代码：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TestDemo</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        A ab = <span class="keyword">new</span> B();</span><br><span class="line">        A a = <span class="keyword">new</span> A();</span><br><span class="line">        D d = <span class="keyword">new</span> D();</span><br><span class="line">        ab.Show(a);</span><br><span class="line">        ab.Show(d);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">A</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">Show</span><span class="params">(A a)</span></span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"A and A"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">Show</span><span class="params">(C c)</span></span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"A and C"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">B</span> <span class="keyword">extends</span> <span class="title">A</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">Show</span><span class="params">(A a)</span></span>&#123;</span><br><span class="line"></span><br><span class="line">        System.out.println(<span class="string">"B and A"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">C</span> <span class="keyword">extends</span> <span class="title">B</span></span>&#123;&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">D</span> <span class="keyword">extends</span> <span class="title">C</span></span>&#123;&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">Output:</span></span><br><span class="line"><span class="comment">	B and A</span></span><br><span class="line"><span class="comment">	A and C</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
-
-<p>会产生这种输出的原因是：</p>
-<p>对象ab是A的引用指向B的对象，在编译时，Java编译器会根据ab的显式参数A去在类A的方法中匹配需要调用的方法，如果没有匹配到，则会编译会报错。运行时，由于ab是B的对象，所以虚拟机会看在B中是否对该方法进行了重写，如果重写了则调用B的方法，如果没有就会调用A的方法，这个过程叫做动态绑定。所以说：</p>
-<p>重写是动态的，重载是静态的。</p>
-<p>产生第二行输出是因为编译器在选择需要调用的方法时没有匹配到对应的方法，于是编译器会将对象d向上提升，这时候便和Show(C c)这个方法匹配上了，这个过程叫做向上转型。</p>
-<p>总结来说，就是绑定需要调用的方法时：</p>
-<p>①如果是静态方法，只看左边，即只看显式参数的类型，因为静态方法是属于类的。</p>
-<p>②如果是非静态方法，那么编译时看左边，运行时看右边。</p>
-<h2 id="阻止继承final类和方法"><a href="#阻止继承final类和方法" class="headerlink" title="阻止继承final类和方法"></a>阻止继承final类和方法</h2><p>如果希望某个类不能被继承，那么可以使用final关键字进行修饰，那么其他类就不能继承这个类。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">final</span> <span class="class"><span class="keyword">class</span> <span class="title">A</span></span>&#123;</span><br><span class="line">    . . .</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>同样的如果希望类中的某个类不能被重写也可以声明成final，那么他的子类便不能对这个方法进行重写</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">final</span> String <span class="title">DoSomething</span><span class="params">()</span></span>&#123;</span><br><span class="line">    . . .</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="Object类"><a href="#Object类" class="headerlink" title="Object类"></a>Object类</h2><p>object类是所有类的超类，Java中每个类都是由他扩展而来。</p>
-<h3 id="equals方法"><a href="#equals方法" class="headerlink" title="equals方法"></a>equals方法</h3><p>object类中定义了equals方法检测两个对象是否相等。但是在object类中该方法判断的是两个对象是否有相同的引用，即和==一样。在String类中，重写了该equals方法，判断两个字符串类容是否相同，这就是为什么String类中equals方法和==有区别的原因。</p>
-<p>通常情况下，比较两个对象是否相等我们一般要判断他们的域是否相等，所以可以按如下代码重写equals方法。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Student</span></span>&#123;</span><br><span class="line">    String name;</span><br><span class="line">    <span class="keyword">int</span> age;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">equals</span><span class="params">(Object otherObject)</span> </span>&#123; </span><br><span class="line">    <span class="comment">// a quick test to see if the objects are identical </span></span><br><span class="line">    <span class="keyword">if</span> (<span class="keyword">this</span> == otherObject) <span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line">	<span class="comment">// must return false if the explicit parameter is null </span></span><br><span class="line">    <span class="keyword">if</span> (otherObject == <span class="keyword">null</span>) <span class="keyword">return</span> <span class="keyword">false</span>;</span><br><span class="line">	<span class="comment">// if the classes don't match, they can't be equal </span></span><br><span class="line">    <span class="keyword">if</span> (getClass() != otherObject.getClass()) <span class="keyword">return</span> <span class="keyword">false</span>;</span><br><span class="line">	<span class="comment">// now we know otherObject is a non-null Employee </span></span><br><span class="line">    Student other = (Student) otherObject;</span><br><span class="line">	<span class="comment">// test whether the fields have identical values </span></span><br><span class="line">    <span class="keyword">return</span> name.equals(otherObject.name) &amp;&amp; age = otherObject.age;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">getClass方法返回的不是引用的对象名，而是具体对象名。如：</span></span><br><span class="line"><span class="comment">A ab = new B();</span></span><br><span class="line"><span class="comment">ab.getClass();</span></span><br><span class="line"><span class="comment">返回的是Class B;</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="hashCode方法"><a href="#hashCode方法" class="headerlink" title="hashCode方法"></a>hashCode方法</h3><p>hash code是由对象导出的一个整型值。因为这个方法是Object类中的方法，所以每一个对象都有一个默认的散列码，如果一个类没有重写hashCode方法，那么默认的散列码为对象的储存地址。</p>
-<h3 id="toString方法"><a href="#toString方法" class="headerlink" title="toString方法"></a>toString方法</h3><p>返回表示对象值的字符串</p>
-<h2 id="泛型数组列表"><a href="#泛型数组列表" class="headerlink" title="泛型数组列表"></a>泛型数组列表</h2><p>Java提供了ArrayList类能够在运行时自动调节数组容量。可以按如下方式声明</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ArrayList&lt;Object&gt; list = <span class="keyword">new</span> ArrayList&lt;Object&gt;();</span><br></pre></td></tr></table></figure>
-
-<p>尖括号中定义的是存储的数据类型(不允许使用基本数据类型)，Java SE7中，可以省去右边的尖括号。</p>
-<p>该类的常用API有：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">boolean</span> <span class="title">add</span><span class="params">(E obj)</span> <span class="comment">//在数组尾端添加一个元素。</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">size</span><span class="params">()</span> <span class="comment">//返回数组的元素个数</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">set</span><span class="params">(<span class="keyword">int</span> index,E obj)</span> <span class="comment">//设置指定位置的元素值</span></span></span><br><span class="line"><span class="function">E <span class="title">get</span><span class="params">(<span class="keyword">int</span> index)</span> <span class="comment">//获得指定位置的元素值</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">add</span><span class="params">(<span class="keyword">int</span> index,E obj)</span> <span class="comment">//在指定位置向后移动元素以便插入新元素</span></span></span><br><span class="line"><span class="function">E <span class="title">remove</span><span class="params">(<span class="keyword">int</span> index)</span> <span class="comment">//删除一个元素，并将后面的元素向前移动</span></span></span><br></pre></td></tr></table></figure>
-
-<h2 id="对象包装器与自动装箱"><a href="#对象包装器与自动装箱" class="headerlink" title="对象包装器与自动装箱"></a>对象包装器与自动装箱</h2><p>前面提到ArrayList中不允许是基本数据类型，所以需要将int这样的基本类型转换成对象。所有的基本类型都有一个与之对应的类，为Integer，Long，Short，Byte，Float，Double，Character，Void，Boolean。前六个类都派生于公共的超类Number。对象包装器是不可变的，一旦构造就不能修改其中的值。</p>
-<p>当往一个存储Integer对象的list中存放值时，如list.add(3),将自动变为list.add(Integer.valueOf(3))。这个变换叫做自动装箱。相反Integer赋给一个int时，将会自动的拆箱。</p>
-<h2 id="反射"><a href="#反射" class="headerlink" title="反射"></a>反射</h2><p>Java反射机制是指运行状态中。对于任何一个类，都能知道的这个类的所有属性和方法。对于任何一个对象，都能调用它的任意方法和属性。这种动态获取程序信息以及动态调用对象的功能称为Java的反射机制。</p>
-<h3 id="Class对象"><a href="#Class对象" class="headerlink" title="Class对象"></a>Class对象</h3><p><img src="https://img-blog.csdn.net/20170513133210763" alt="img"></p>
-<p>通过这幅图我们可以理解什么是Class对象。在程序运行期间，Java运行时系统始终为所有对象维护一个被称作运行时的类型标识，这个信息跟踪着每个对象所属的类。虚拟机利用运行时类型信息选择相应的方法执行。可以通过一个专门的Java类访问这些信息，保存这些信息的类叫做Class。Object类中的getClass方法将会返回一个Class类型的实例。</p>
-<p>Class类的实例表示正在运行的Java应用程序中的类和接口。也就是JVM中有N多的实例每个类都有该Class对象（包括基本数据类型）。一个类的N多实例共享一个Class对象。</p>
-<p>Class 没有公共构造方法。Class 对象是在加载类时由 Java 虚拟机以及通过调用类加载器中的defineClass方法自动构造的。也就是这不需要我们自己去处理创建，JVM已经帮我们创建好了。</p>
-<h3 id="获取Class对象"><a href="#获取Class对象" class="headerlink" title="获取Class对象"></a>获取Class对象</h3><p>1.getClass()方法</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Student s;</span><br><span class="line">Class c = s.getClass();</span><br></pre></td></tr></table></figure>
-
-<p>2.静态方法forName（这个方法在链接数据库时用到过）</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">String className = <span class="string">"java.util.Random"</span>;</span><br><span class="line">Class c = Class.forName(className);</span><br></pre></td></tr></table></figure>
-
-<p>3.通过数据类型获得Class对象（包括基本数据类型）</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Class c1 = Random<span class="class">.<span class="keyword">class</span></span>;</span><br><span class="line">Class c2 = <span class="keyword">int</span><span class="class">.<span class="keyword">class</span></span>;</span><br><span class="line">Class c3 = Double[]<span class="class">.<span class="keyword">class</span></span>;</span><br></pre></td></tr></table></figure>
-
-<h3 id="利用反射分析类"><a href="#利用反射分析类" class="headerlink" title="利用反射分析类"></a>利用反射分析类</h3><h4 id="通过反射获取构造方法并使用"><a href="#通过反射获取构造方法并使用" class="headerlink" title="通过反射获取构造方法并使用"></a>通过反射获取构造方法并使用</h4><p>Class类中提供了几种方法用来获取构造方法</p>
-<p><img src="/2020/03/01/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E4%B8%89%EF%BC%89/image-20200301165305140.png" alt="1"></p>
-<p><img src="/2020/03/01/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E4%B8%89%EF%BC%89/image-20200301165345758.png" alt="2"></p>
-<p>Constructor类提供了调用构造方法的方法</p>
-<p><img src="/2020/03/01/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E4%B8%89%EF%BC%89/image-20200301170704285.png" alt="3"></p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> reflectDemo;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Student</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">public</span> String name;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> age;</span><br><span class="line">    <span class="keyword">protected</span> <span class="keyword">char</span> sex;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Student</span><span class="params">(String name)</span></span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.name = name;</span><br><span class="line">        System.out.println(<span class="string">"name is : "</span>+name);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="title">Student</span><span class="params">(<span class="keyword">int</span> age)</span></span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.age = age;</span><br><span class="line">        System.out.println(<span class="string">"age is : "</span>+ age);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="title">Student</span><span class="params">(String name,<span class="keyword">int</span> age)</span></span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.name = name;</span><br><span class="line">        <span class="keyword">this</span>.age = age;</span><br><span class="line">        System.out.println(<span class="string">"name is : "</span>+name+<span class="string">"and age is : "</span>+age);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">===========================================================</span><br><span class="line">    </span><br><span class="line"><span class="keyword">package</span> reflectDemo;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.lang.reflect.Constructor;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ConstructorDemo</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> <span class="keyword">throws</span> Exception </span>&#123;</span><br><span class="line"></span><br><span class="line">        Class c = Class.forName(<span class="string">"reflectDemo.Student"</span>);</span><br><span class="line">        System.out.println(<span class="string">"**********************所有公有构造方法***************************"</span>);</span><br><span class="line">        Constructor[] conArray = c.getConstructors();</span><br><span class="line">        <span class="keyword">for</span> (Constructor n : conArray) &#123;</span><br><span class="line">            System.out.println(n);</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">"************所有的构造方法(包括：私有、受保护、默认、公有)***************"</span>);</span><br><span class="line">        conArray = c.getDeclaredConstructors();</span><br><span class="line">        <span class="keyword">for</span> (Constructor n : conArray) &#123;</span><br><span class="line">            System.out.println(n);</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">"*****************获取公有构造方法，并调用**********************"</span>);</span><br><span class="line">        Constructor con = c.getConstructor(String<span class="class">.<span class="keyword">class</span>)</span>;</span><br><span class="line">        System.out.println(con);</span><br><span class="line">        <span class="comment">//调用构造方法</span></span><br><span class="line">        Object obj = con.newInstance(<span class="string">"张三"</span>);</span><br><span class="line">        System.out.println(<span class="string">"****************获取私有构造方法，并调用***********************"</span>);</span><br><span class="line">        con = c.getDeclaredConstructor(String<span class="class">.<span class="keyword">class</span>,<span class="title">int</span>.<span class="title">class</span>)</span>;</span><br><span class="line">        System.out.println(con);</span><br><span class="line">        <span class="comment">//暴力访问(忽略掉访问修饰符)</span></span><br><span class="line">        con.setAccessible(<span class="keyword">true</span>);</span><br><span class="line">        <span class="comment">//调用构造方法</span></span><br><span class="line">        obj = con.newInstance(<span class="string">"李四"</span>,<span class="number">18</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">===========================================================</span><br><span class="line">    </span><br><span class="line">Output: </span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">*	**********************所有公有构造方法*********************************</span></span><br><span class="line"><span class="comment">*	public reflectDemo.Student(java.lang.String)</span></span><br><span class="line"><span class="comment">*	************所有的构造方法(包括：私有、受保护、默认、公有)***************</span></span><br><span class="line"><span class="comment">*	public reflectDemo.Student(java.lang.String)</span></span><br><span class="line"><span class="comment">*	protected reflectDemo.Student(int)</span></span><br><span class="line"><span class="comment">*	private reflectDemo.Student(java.lang.String,int)</span></span><br><span class="line"><span class="comment">*	*****************获取公有构造方法，并调用******************************</span></span><br><span class="line"><span class="comment">*	public reflectDemo.Student(java.lang.String)</span></span><br><span class="line"><span class="comment">*	name is : 张三</span></span><br><span class="line"><span class="comment">*	******************获取私有构造方法，并调用*****************************</span></span><br><span class="line"><span class="comment">*	private reflectDemo.Student(java.lang.String,int)</span></span><br><span class="line"><span class="comment">*	name is : 李四 and age is : 18</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="通过反射获取成员变量并调用"><a href="#通过反射获取成员变量并调用" class="headerlink" title="通过反射获取成员变量并调用"></a>通过反射获取成员变量并调用</h4><p>同样Class类提供了对应的方法</p>
-<p><img src="/2020/03/01/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E4%B8%89%EF%BC%89/image-20200301171123868.png" alt="4"></p>
-<p><img src="/2020/03/01/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E4%B8%89%EF%BC%89/image-20200301171219605.png" alt="5"></p>
-<p>filed类方法</p>
-<p><img src="/2020/03/01/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E4%B8%89%EF%BC%89/image-20200301191115983.png" alt="6"></p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> reflectDemo;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Student</span> </span>&#123;</span><br><span class="line">    <span class="keyword">public</span> String name;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> age;</span><br><span class="line">    <span class="keyword">protected</span> <span class="keyword">char</span> sex;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Student</span><span class="params">()</span></span>&#123;&#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getAge</span><span class="params">()</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> age;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">=================================================================</span><br><span class="line">    </span><br><span class="line"><span class="keyword">package</span> reflectDemo;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.lang.reflect.Field;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">FiledDemo</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> <span class="keyword">throws</span> Exception </span>&#123;</span><br><span class="line">        <span class="comment">//1.获取Class对象</span></span><br><span class="line">        Class c = Class.forName(<span class="string">"reflectDemo.Student"</span>);</span><br><span class="line">        <span class="comment">//2.获取字段</span></span><br><span class="line">        System.out.println(<span class="string">"************获取所有公有的字段********************"</span>);</span><br><span class="line">        Field[] fieldArray = c.getFields();</span><br><span class="line">        <span class="keyword">for</span>(Field f : fieldArray)&#123;</span><br><span class="line">            System.out.println(f);</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">"************获取所有的字段(包括私有、受保护、默认的)********************"</span>);</span><br><span class="line">        fieldArray = c.getDeclaredFields();</span><br><span class="line">        <span class="keyword">for</span>(Field f : fieldArray)&#123;</span><br><span class="line">            System.out.println(f);</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">"*************获取公有字段并调用******************************"</span>);</span><br><span class="line">        Field f = c.getField(<span class="string">"name"</span>);</span><br><span class="line">        System.out.println(f);</span><br><span class="line">        <span class="comment">//获取一个对象</span></span><br><span class="line">        Object obj = c.getConstructor().newInstance();<span class="comment">//产生Student对象--》Student stu = new Student();</span></span><br><span class="line">        <span class="comment">//为字段设置值</span></span><br><span class="line">        f.set(obj, <span class="string">"张三"</span>);<span class="comment">//为Student对象中的name属性赋值</span></span><br><span class="line">        <span class="comment">//验证是否成功</span></span><br><span class="line">        Student stu = (Student)obj;</span><br><span class="line">        System.out.println(<span class="string">"name："</span> + stu.name);</span><br><span class="line">        System.out.println(<span class="string">"**************获取私有字段并调用*****************************"</span>);</span><br><span class="line">        f = c.getDeclaredField(<span class="string">"age"</span>);</span><br><span class="line">        System.out.println(f);</span><br><span class="line">        <span class="comment">//暴力反射，解除私有限定</span></span><br><span class="line">        f.setAccessible(<span class="keyword">true</span>);</span><br><span class="line">        f.set(obj, <span class="number">19</span>);</span><br><span class="line">        System.out.println(<span class="string">"age："</span> + stu.getAge());</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">==================================================================</span><br><span class="line">    </span><br><span class="line">Output:</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	*********************获取所有公有的字段*******************</span></span><br><span class="line"><span class="comment">	public java.lang.String reflectDemo.Student.name</span></span><br><span class="line"><span class="comment">	*******获取所有的字段(包括私有、受保护、默认的)*************</span></span><br><span class="line"><span class="comment">	public java.lang.String reflectDemo.Student.name</span></span><br><span class="line"><span class="comment">	private int reflectDemo.Student.age</span></span><br><span class="line"><span class="comment">	protected char reflectDemo.Student.sex</span></span><br><span class="line"><span class="comment">	*************获取公有字段并调用***************************</span></span><br><span class="line"><span class="comment">	public java.lang.String reflectDemo.Student.name</span></span><br><span class="line"><span class="comment">	name：张三</span></span><br><span class="line"><span class="comment">	**************获取私有字段并调用**************************</span></span><br><span class="line"><span class="comment">	private int reflectDemo.Student.age</span></span><br><span class="line"><span class="comment">	age：19</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="通过反射获取成员方法并调用"><a href="#通过反射获取成员方法并调用" class="headerlink" title="通过反射获取成员方法并调用"></a>通过反射获取成员方法并调用</h4><p>class类提供的方法</p>
-<p><img src="/2020/03/01/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E4%B8%89%EF%BC%89/image-20200301190914184.png" alt="7"></p>
-<p><img src="/2020/03/01/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E4%B8%89%EF%BC%89/image-20200301190940544.png" alt="8"></p>
-<p>method类提供的方法</p>
-<p><img src="/2020/03/01/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E4%B8%89%EF%BC%89/image-20200301191218175.png" alt="9"></p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> reflectDemo;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Student</span> </span>&#123;</span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">show1</span><span class="params">(String name)</span></span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"调用了含参公有方法，参数为："</span>+name);</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">show2</span><span class="params">()</span></span>&#123;</span><br><span class="line">       System.out.println(<span class="string">"调用了公有方法"</span>);</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">show3</span><span class="params">(<span class="keyword">int</span> age)</span></span>&#123;</span><br><span class="line">       System.out.println(<span class="string">"调用了含参私有方法，参数为："</span>+age);</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">===========================================================================</span><br><span class="line">    </span><br><span class="line"><span class="keyword">package</span> reflectDemo;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.lang.reflect.Method;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MethodDemo</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> <span class="keyword">throws</span> Exception </span>&#123;</span><br><span class="line">        <span class="comment">//1.获取Class对象</span></span><br><span class="line">        Class c = Class.forName(<span class="string">"reflectDemo.Student"</span>);</span><br><span class="line">        <span class="comment">//2.获取所有公有方法</span></span><br><span class="line">        System.out.println(<span class="string">"***************获取所有的”公有“方法*******************"</span>);</span><br><span class="line">        Method[] methodArray = c.getMethods();</span><br><span class="line">        <span class="keyword">for</span>(Method m : methodArray)&#123;</span><br><span class="line">            System.out.println(m);</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">"***************获取所有的方法，包括私有的*******************"</span>);</span><br><span class="line">        methodArray = c.getDeclaredMethods();</span><br><span class="line">        <span class="keyword">for</span>(Method m : methodArray)&#123;</span><br><span class="line">            System.out.println(m);</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">"***************获取公有的show1()方法*******************"</span>);</span><br><span class="line">        Method m = c.getMethod(<span class="string">"show1"</span>, String<span class="class">.<span class="keyword">class</span>)</span>;</span><br><span class="line">        System.out.println(m);</span><br><span class="line">        <span class="comment">//实例化一个Student对象</span></span><br><span class="line">        Object obj = c.getConstructor().newInstance();</span><br><span class="line">        m.invoke(obj, <span class="string">"张三"</span>);</span><br><span class="line"></span><br><span class="line">        System.out.println(<span class="string">"***************获取私有的show4()方法******************"</span>);</span><br><span class="line">        m = c.getDeclaredMethod(<span class="string">"show3"</span>, <span class="keyword">int</span><span class="class">.<span class="keyword">class</span>)</span>;</span><br><span class="line">        System.out.println(m);</span><br><span class="line">        <span class="comment">//解除私有限定</span></span><br><span class="line">        m.setAccessible(<span class="keyword">true</span>);</span><br><span class="line">        m.invoke(obj, <span class="number">19</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">==============================================================================</span><br><span class="line"></span><br><span class="line">Output:</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	***************获取所有的”公有“方法*******************</span></span><br><span class="line"><span class="comment">	public void reflectDemo.Student.show1(java.lang.String)</span></span><br><span class="line"><span class="comment">	public int reflectDemo.Student.getAge()</span></span><br><span class="line"><span class="comment">	public final void java.lang.Object.wait() throws java.lang.InterruptedException</span></span><br><span class="line"><span class="comment">	public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException</span></span><br><span class="line"><span class="comment">	public final native void java.lang.Object.wait(long) throws java.lang.InterruptedException</span></span><br><span class="line"><span class="comment">	public boolean java.lang.Object.equals(java.lang.Object)</span></span><br><span class="line"><span class="comment">	public java.lang.String java.lang.Object.toString()</span></span><br><span class="line"><span class="comment">	public native int java.lang.Object.hashCode()</span></span><br><span class="line"><span class="comment">	public final native java.lang.Class java.lang.Object.getClass()</span></span><br><span class="line"><span class="comment">	public final native void java.lang.Object.notify()</span></span><br><span class="line"><span class="comment">	public final native void java.lang.Object.notifyAll()</span></span><br><span class="line"><span class="comment">	***************获取所有的方法，包括私有的**************</span></span><br><span class="line"><span class="comment">	private void reflectDemo.Student.show3(int)</span></span><br><span class="line"><span class="comment">	protected void reflectDemo.Student.show2()</span></span><br><span class="line"><span class="comment">	public void reflectDemo.Student.show1(java.lang.String)</span></span><br><span class="line"><span class="comment">	public int reflectDemo.Student.getAge()</span></span><br><span class="line"><span class="comment">	***************获取公有的show1()方法*******************</span></span><br><span class="line"><span class="comment">	public void reflectDemo.Student.show1(java.lang.String)</span></span><br><span class="line"><span class="comment">	调用了含参公有方法，参数为：张三</span></span><br><span class="line"><span class="comment">	***************获取私有的show4()方法*******************</span></span><br><span class="line"><span class="comment">	private void reflectDemo.Student.show3(int)</span></span><br><span class="line"><span class="comment">	调用了含参私有方法，参数为：19</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
-
-<p>可以看到在公有方法中也输出了Object类中继承的一些方法。</p>
-<p>同时也能通过如下方法执行main方法</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">m = c.getMethod(<span class="string">"main"</span>, String[]<span class="class">.<span class="keyword">class</span>)</span>;</span><br><span class="line">m.invoke(<span class="keyword">null</span>, (Object)<span class="keyword">new</span> String[]&#123;&#125;);<span class="comment">//第二个参数在jdk1.4是数组，在jdk1.5及以后是可变参数，要进行强转</span></span><br></pre></td></tr></table></figure>
-
-<p>还可以调用method类的其他方法越过泛型检查，传入不同类型的参数。</p>
-<p>具体参考：<a href="https://blog.csdn.net/sinat_38259539/article/details/71799078" target="_blank" rel="noopener">Java基础—反射</a></p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/03/01/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E4%B8%89%EF%BC%89/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -337,10 +336,16 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-02-27 21:58:55 / 修改时间：22:08:49" itemprop="dateCreated datePublished" datetime="2020-02-27T21:58:55+08:00">2020-02-27</time>
+              <time title="创建时间：2020-02-27 21:58:55" itemprop="dateCreated datePublished" datetime="2020-02-27T21:58:55+08:00">2020-02-27</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-03-02 20:17:30" itemprop="dateModified" datetime="2020-03-02T20:17:30+08:00">2020-03-02</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
@@ -367,20 +372,14 @@
 <h2 id="类与类的关系"><a href="#类与类的关系" class="headerlink" title="类与类的关系"></a>类与类的关系</h2><p>依赖(Dependency)是一种”use-a”关系，大多数情况下依赖关系体现在某个类的方法使用另一个类的对象作为参数。</p>
 <p>聚合(Aggregation)是一种“ has-a” 关系，是一种具体且易于理解的关系。例如，一个Order对象包含一些Item对象。聚合关系意味着类 A 的对象包含类 B 的对象。 </p>
 <p>继承(Inheritance)是一种”is-a”关系，子类从父类中继承了一些方法以及参数。</p>
-<h2 id="final实例域"><a href="#final实例域" class="headerlink" title="final实例域"></a>final实例域</h2><p>可以将实例域定义为final。构建对象时必须初始化这样的域，并且在后面的操作中不能对它进行修改。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Student</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">final</span> String name;</span><br><span class="line">    . . .</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="静态域与静态方法"><a href="#静态域与静态方法" class="headerlink" title="静态域与静态方法"></a>静态域与静态方法</h2><h3 id="静态域"><a href="#静态域" class="headerlink" title="静态域"></a>静态域</h3><p>如果将域定义为static，那么这个域将被这个类所有的实例共享，不管有多少个实例存在，静态域只有一个，即使没有实例，它也存在。它属于类，不属于任何独立的对象。</p>
-<h3 id="静态方法"><a href="#静态方法" class="headerlink" title="静态方法"></a>静态方法</h3><p>静态方法不能操作对象，可以有类名直接调用。</p>
-<h2 id="方法参数"><a href="#方法参数" class="headerlink" title="方法参数"></a>方法参数</h2><p>将参数传递给方法有：按值调用，表示方法接受的是调用者提供的值。按引用调用，表示方法接受的是调用者提供的变量地址。Java对基础变量作为参数是按值调用，而对象作为参数传递的是引用拷贝。</p>
-<p>参考：<a href="https://blog.csdn.net/xiangwanpeng/article/details/52454479?depth_1-utm_source=distribute.pc_relevant.none-task&amp;utm_source=distribute.pc_relevant.none-task" target="_blank" rel="noopener">关于Java对象作为参数传递是传值还是传引用的问题</a></p>
-<h2 id="调用另外的构造器"><a href="#调用另外的构造器" class="headerlink" title="调用另外的构造器"></a>调用另外的构造器</h2><p>在一个构造器中，可以通过如下的this语句调用一个类的另外一个构造器。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="title">Student</span> <span class="params">(<span class="keyword">int</span> age)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">//call Student(String name,int age)</span></span><br><span class="line">    <span class="keyword">this</span>(<span class="string">"xxxx"</span>,age);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="初始化块"><a href="#初始化块" class="headerlink" title="初始化块"></a>初始化块</h2><p>Java给数据域赋值可以通过构造器和声明，第三种方法就是初始化块。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Student</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> age;</span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line">    <span class="comment">//initialization block</span></span><br><span class="line">    &#123;</span><br><span class="line">        age = <span class="number">0</span>;</span><br><span class="line">        name = <span class="string">""</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/02/27/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E4%BA%8C%EF%BC%89/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -430,7 +429,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-03-01 19:39:36" itemprop="dateModified" datetime="2020-03-01T19:39:36+08:00">2020-03-01</time>
+                <time title="修改时间：2020-03-02 20:42:19" itemprop="dateModified" datetime="2020-03-02T20:42:19+08:00">2020-03-02</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -485,67 +484,14 @@
 </tbody></table>
 <p>整型用于表示没有小数部分的数值，允许为负数。与C++不同，Java整型的范围与运行Java代码的机器无关，这也是Java可以在各个平台方便移植的原因之一。</p>
 <p>从 Java7 开始， 加上前缀 0b 或 0B 就可以写二进制数。例如，0b1001就是 9。</p>
-<h3 id="1-2-浮点类型"><a href="#1-2-浮点类型" class="headerlink" title="1.2    浮点类型"></a>1.2    浮点类型</h3><table>
-<thead>
-<tr>
-<th align="center">类型</th>
-<th align="center">存储需求</th>
-<th>取值范围</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">float</td>
-<td align="center">4字节</td>
-<td>大约 ± 3.402 82347E+38F (有效位数为6~7位）</td>
-</tr>
-<tr>
-<td align="center">double</td>
-<td align="center">8字节</td>
-<td>大约 ± 1.797 693 134 862 315 70E+308 (有效位数为 15 位）</td>
-</tr>
-</tbody></table>
-<p>浮点类型使用科学技术法表示一个数，可以表示非常大的数，但是牺牲了精度(这取决于有效数字的位数)。通常float类型的精度难以满足要求，一般使用double类型。</p>
-<p>浮点溢出有3个特殊的浮点值分别是：正无穷大(Double.POSITIVE_INFINITY)，负无穷大(Double.NEGATIVE_INFINITY)和不是一个数字(NaN)。</p>
-<p>浮点数值由于采用二进制系统表示，不适用与无法接受舍入的计算中。例如在Java中输入命令System.out.print(2.0-1.1)将会输出0.8999999999999999，而不是0.9。具体原因可以参考计算机组成原理相关的知识。</p>
-<h3 id="1-3-Char类型"><a href="#1-3-Char类型" class="headerlink" title="1.3    Char类型"></a>1.3    Char类型</h3><p>char类型用于表示单个字符，大小为2字节。有些 Unicode 字符可以用一个char值描述，另外一些Unicode字符则需要两个char值。char类型的字面量值要用单引号括起来。例如：’A’是编码值为 65 所对应的字符常量。它与”A”不同，”A”是包含一个字符A的字符串，char类型的值可以表示为十六进制值，其范围从\u0000 到\Uffff。例如：\u03C0表示希腊字母π(一定要注意注释中的\u)。 </p>
-<p>由于Unicode字符集已经超出了65 535个，16位的char无法满足需要。从Java SE 5.0开始使用了码点这一概念。码点(code point)是指与一个编码表中的某个字符对应的代码值。在Unicode标准中，码点采用十六进制书写，并加上前缀 U+, 例如U+0041就是拉丁字母A的码点。Unicode的码点可以分成 17 个代码级别(codeplane)。第一个代码级别称为基本的多语言级别(basic multilingual plane), 码点从 U+0000到U+FFFF, 其中包括经典的Unicode代码；其余的16个级另码点从U+10000到U+10FFFF, 其中包括一些辅助字符(supplementary character)。UTF-16 编码采用不同长度的编码表示所有Unicode码点。在基本的多语言级别中，每个字符用16位表示，通常被称为代码单元(code unit); 而辅助字符采用一对连续的代码单元进行编码。这样构成的编码值落人基本的多语言级别中空闲的2048字节内， 通常被称为替代区域(surrogate area) [U+D800 ~ U+DBFF用于第一个代码单元，U+DC00 ~ U+DFFF用 于第二个代码单元]。这样设计十分巧妙，我们可以从中迅速地知道一个代码单元是一个字符的编码，还是一个辅助字符的第一或第二部分。例如，⑪是八元数集的一个数学符号，码点为U+1D546, 编码为两个代码单元U+D835和U+DD46</p>
-<h3 id="1-4-布尔类型"><a href="#1-4-布尔类型" class="headerlink" title="1.4    布尔类型"></a>1.4    布尔类型</h3><p>boolean(布尔)类型有两个值：false和true，用来判定逻辑条件。与C++不同，整型值和布尔值之间不能进行相互转换。</p>
-<h2 id="2-变量"><a href="#2-变量" class="headerlink" title="2.变量"></a>2.变量</h2><h3 id="2-1-初始化"><a href="#2-1-初始化" class="headerlink" title="2.1    初始化"></a>2.1    初始化</h3><p>声明变量之后必须使用赋值语句对变量进行初始化，Java不区分变量的声明与定义。</p>
-<h3 id="2-2-常量"><a href="#2-2-常量" class="headerlink" title="2.2    常量"></a>2.2    常量</h3><p>Java使用final关键字声明常量，常量名通常使用全大写。如果希望常量可以在一个类的多个方法中使用，可以使用static final进行声明。</p>
-<h3 id="2-3-数值类型之间的转换"><a href="#2-3-数值类型之间的转换" class="headerlink" title="2.3    数值类型之间的转换"></a>2.3    数值类型之间的转换</h3><p>Java中经常需要把一个数值类型转换为另外一种类型，有些是合法的，而有些则会丢失一部分信息。</p>
-<p>当两个不同数值类型的数进行运算时，Java先要将两个操作数转换为同一种类型然后进行计算，转换时会准守如下规则：</p>
-<p>​    •如果两个操作数中有一个是double类型， 另一个操作数就会转换为double类型。 </p>
-<p>​    •否则，如果其中一个操作数是float类型，另一个操作数将会转换为float类型。 </p>
-<p>​    •否则， 如果其中一个操作数是long类型， 另一个操作数将会转换为long类型。 </p>
-<p>​    •否则， 两个操作数都将被转换为int类型。 </p>
-<p>在必要的时候可以使用强制类型转换，需要通过(cast)实现这个操作。例如：</p>
-<p>double x = 0.1;    int nx = (int)x;</p>
-<h2 id="3-运算符"><a href="#3-运算符" class="headerlink" title="3.运算符"></a>3.运算符</h2><h3 id="3-1-自增与自减运算符"><a href="#3-1-自增与自减运算符" class="headerlink" title="3.1    自增与自减运算符"></a>3.1    自增与自减运算符</h3><p>有两种形式，前缀：n++，n–    后缀：++n，–n。两者的区别为：前缀形式会先完成加1，而后缀形式会使用变量原来的值。 </p>
-<h3 id="3-2-关系和boolean运算符"><a href="#3-2-关系和boolean运算符" class="headerlink" title="3.2    关系和boolean运算符"></a>3.2    关系和boolean运算符</h3><p>使用==检测相等性，使用！=检测不相等，还有&lt;,&gt;,&gt;=,&lt;=运算符。</p>
-<p>Java沿用C++使用&amp;&amp;表示逻辑“与”运算，使用||表示逻辑“或”运算。如果第一个操作数能确定表达式的值，则后面的不用计算。可以使用&amp;和|使计算式计算每个表达式的值.</p>
-<p>三元操作符condition ？expression1 ： expression2，如果condition为真，则结果为前者，否则为后者。例如x&lt;y ? x : y会返回x，y中较小者。</p>
-<h3 id="3-3-位运算符"><a href="#3-3-位运算符" class="headerlink" title="3.3    位运算符"></a>3.3    位运算符</h3><p>处理整型时可以对数值的各个位完成操作。在掩码技术和加密算法中可以应用。Java的位运算符有：&amp; (“and”)，| (“or”)，^ (“xor”)，~ (“not”)。</p>
-<p>例如，如果n是一个整数变量，而且用二进制表示的n从右边数第4位为1，则 int fourthBitFromRight = (n &amp; 0b1000) / 0b1000; 会返回1，否则返回0。利用&amp;并结合使用适当的2的幂，可以把其他位掩掉， 而只保留其中的某一位。 </p>
-<p>另外，还有&gt;&gt;和&lt;&lt;运算符将位模式左移或右移，&gt;&gt;&gt;运算符会用0填充高位，这与&gt;&gt;不同，它会用符号位填充高位。不存在&lt;&lt;&lt;运算符。 </p>
-<h2 id="4-字符串"><a href="#4-字符串" class="headerlink" title="4.字符串"></a>4.字符串</h2><p>字符串从概念上讲就是Unicode字符序列。Java没有内置的字符串类型，而是定义了一个String类，每个双引号括起来的字符串都是String类的一个实例。</p>
-<h3 id="4-1-子串与拼接"><a href="#4-1-子串与拼接" class="headerlink" title="4.1    子串与拼接"></a>4.1    子串与拼接</h3><p>String类的substring方法可以截取字符串的子串，第一个参数是开始的位置，第二个参数是截取的长度。Java允许字符串之间使用+号进行连接。当将一个字符串与一个非字符串的值进行拼接时，后者被转换成字符串。常用的输出语句中的整型变量实则是被转换成了字符串。</p>
-<h3 id="4-2-不可变字符串"><a href="#4-2-不可变字符串" class="headerlink" title="4.2    不可变字符串"></a>4.2    不可变字符串</h3><p>String类不提供修改字符串的方法，改变字符串变量实际上是让它指向了另一个字符串。Java可以将字符串常量的实例放在一个公共的存储池中进行共享，如果复制一个字符串变量，原始字符串变量与复制的变量指向同一个实例。</p>
-<h3 id="4-3-检测字符串是否相等"><a href="#4-3-检测字符串是否相等" class="headerlink" title="4.3     检测字符串是否相等"></a>4.3     检测字符串是否相等</h3><p>可以使用equals方法检测两个字符串是否相等。不要使用==检测两个字符串是否相等，它只能确定两个字符串是否放在同一个位置上，即是否是同一个实例。但是完全可以将多个相同内容的字符串的放在不同的位置上。</p>
-<p>如果虚拟机始终将相同的字符串共享， 就可以使用==运算符检测是否相等。但实际上只有字符串常量是共享的，而+或substring等操作产生的结果并不是共享的。</p>
-<h3 id="4-4-空字符串与Null串"><a href="#4-4-空字符串与Null串" class="headerlink" title="4.4     空字符串与Null串"></a>4.4     空字符串与Null串</h3><p>空串指的是””，是一个实例对象，有自己的长度(0)和内容(空)。不过，String变量有个特殊的值叫做Null，表示目前该变量没有指向任何对象，使用==判断变量是否为Null。</p>
-<h3 id="4-5-码点与代码单元"><a href="#4-5-码点与代码单元" class="headerlink" title="4.5    码点与代码单元"></a>4.5    码点与代码单元</h3><p>Java的字符串有char值序列组成。大多数char值使用一个代码单元，而有的使用了一对代码单元。String的length方法返回的是字符串的代码单元的数量，charAt(n)返回位置n的代码单元。而对于字符串”⑪”,调用length方法会返回2，而charAt(1)返回的是其第二个代码单元而不是空格。</p>
-<h3 id="4-6-StringBuilder类"><a href="#4-6-StringBuilder类" class="headerlink" title="4.6    StringBuilder类"></a>4.6    StringBuilder类</h3><p>使用拼接字符串的方式产生字符串时每次都会构建新的String对象，浪费空间。而使用StringBuilder类则可以避免这个问题。StringBuilder类提供多种方法可以修改其中的保存的字符串，修改后最后调用toString方法将其变为String类型。</p>
-<h2 id="5-输入输出"><a href="#5-输入输出" class="headerlink" title="5.输入输出"></a>5.输入输出</h2><h3 id="5-1-读取输入"><a href="#5-1-读取输入" class="headerlink" title="5.1    读取输入"></a>5.1    读取输入</h3><p>想要通过控制台进行输入，需要狗键一个Scanner对象，并与标准输入流System.in关联。代码为：Scanner in = new Scanner(System.in);可以调用Scanner类的各种方法实现输入，如nextLine方法输入一行，还有nextInt等。</p>
-<h3 id="5-2-文件输入与输出"><a href="#5-2-文件输入与输出" class="headerlink" title="5.2    文件输入与输出"></a>5.2    文件输入与输出</h3><p>要想对文件进行读取就要用File对象构建Scanner对象，如需要读取项目根目录下的myfile.txt的内容就可以定义如下对象：Scanner in = new Scanner(Paths.get(“myflle.txt”), “UTF-8”); 然后便可以使用Scanner类的nextLine等方法对文件进行读取。</p>
-<p>如果要写入文件，就需要构建PrintWriter对象：PrintWriter out = new PrintWriter(“myfile.txt”, “UTF-8”)，如果文件不存在，则创建该文件。可以像输入到System.out—样使用print、println以及printf方法。</p>
-<h2 id="6-数组"><a href="#6-数组" class="headerlink" title="6.数组"></a>6.数组</h2><p>数组是一种数据结构，用来存储同一类型的值。可以通过下标访问数组中的每一个值。</p>
-<p>数组的声明方式为：int[] a = new int[n];    其中n可以为常量也可以为变量。</p>
-<p>创建一个数字数组时，所有元素都初始化为0。boolean类型数组初始化为false。对象数组初始化为null，表示该数组每有存放任何对象。</p>
-<h3 id="6-1-for-each循环遍历数组"><a href="#6-1-for-each循环遍历数组" class="headerlink" title="6.1    for each循环遍历数组"></a>6.1    for each循环遍历数组</h3><p>Java 有一种功能很强的循环结构， 可以用来依次处理数组中的每个元素而不必为指定下标值而分心。 这种增强的 for 循环的语句格式为： for (variable : collection) statement</p>
-<h3 id="6-2-数组拷贝"><a href="#6-2-数组拷贝" class="headerlink" title="6.2    数组拷贝"></a>6.2    数组拷贝</h3><p>在Java中，允许将一个数组变量拷贝到另一个数组变量，两个变量将引用同一个数组。</p>
-<p>如果希望将一个数组的所有值拷贝到一个新的数组中去，可以使用Array类的copyOf方法，该方法通常用来增加数组的大小</p>
-<h3 id="6-3-数组排序"><a href="#6-3-数组排序" class="headerlink" title="6.3    数组排序"></a>6.3    数组排序</h3><p>Array类的sort方法提供了一个优化的快速排序算法。</p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/02/27/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E4%B8%80%EF%BC%89/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -699,7 +645,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -712,7 +658,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
