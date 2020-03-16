@@ -20,29 +20,32 @@
     var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Pisces","version":"7.7.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="No pains，no gains">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Mirac1e&#39;s blogs">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="Java多线程与并发线程与进程线程的概念线程是操作系统能够进行CPU调度的最小单位。它被包含在进程之中，是进程中的实际运作单位。一条线程指的是进程中一个单一顺序的控制流，一个进程中可以并发多个线程，每条线程并行执行不同的任务。 进程的概念进程是计算机中的程序关于某数据集合上的一次运行活动，是系统进行资源分配的基本单位。进程是一个实体。每一个进程都有它自己的地址空间，一般情况下，包括文本区域、数据区">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Java多线程与并发">
+<meta property="og:url" content="http://yoursite.com/2020/03/08/Java%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%B9%B6%E5%8F%91/index.html">
 <meta property="og:site_name" content="Mirac1e&#39;s blogs">
-<meta property="og:description" content="No pains，no gains">
+<meta property="og:description" content="Java多线程与并发线程与进程线程的概念线程是操作系统能够进行CPU调度的最小单位。它被包含在进程之中，是进程中的实际运作单位。一条线程指的是进程中一个单一顺序的控制流，一个进程中可以并发多个线程，每条线程并行执行不同的任务。 进程的概念进程是计算机中的程序关于某数据集合上的一次运行活动，是系统进行资源分配的基本单位。进程是一个实体。每一个进程都有它自己的地址空间，一般情况下，包括文本区域、数据区">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-03-08T14:04:49.119Z">
+<meta property="article:modified_time" content="2020-03-09T12:14:47.024Z">
 <meta property="article:author" content="Miracle">
+<meta property="article:tag" content="-Java -多线程">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://yoursite.com/">
+<link rel="canonical" href="http://yoursite.com/2020/03/08/Java%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%B9%B6%E5%8F%91/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome: true,
-    isPost: false
+    isHome: false,
+    isPost: true
   };
 </script>
 
-  <title>Mirac1e's blogs</title>
+  <title>Java多线程与并发 | Mirac1e's blogs</title>
   
 
 
@@ -153,78 +156,10 @@
             
 
   <div class="posts-expand">
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/03/09/Java%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="Miracle">
-      <meta itemprop="description" content="No pains，no gains">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Mirac1e's blogs">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/03/09/Java%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6/" class="post-title-link" itemprop="url">Java集合框架</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-03-09 19:43:07" itemprop="dateCreated datePublished" datetime="2020-03-09T19:43:07+08:00">2020-03-09</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Java/" itemprop="url" rel="index"><span itemprop="name">Java</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
       
-          <h2 id="Java集合框架"><a href="#Java集合框架" class="headerlink" title="Java集合框架"></a>Java集合框架</h2><p>先画个饼，之后根据jdk源代码来系统整理</p>
-<p>参考：<a href="https://www.cnblogs.com/xiaoxi/p/6089984.html" target="_blank" rel="noopener">java集合框架综述</a></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
   
   
-  
-
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/03/08/Java%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%B9%B6%E5%8F%91/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -238,8 +173,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/03/08/Java%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%B9%B6%E5%8F%91/" class="post-title-link" itemprop="url">Java多线程与并发</a>
+          Java多线程与并发
         </h1>
 
         <div class="post-meta">
@@ -279,7 +213,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="Java多线程与并发"><a href="#Java多线程与并发" class="headerlink" title="Java多线程与并发"></a>Java多线程与并发</h2><h3 id="线程与进程"><a href="#线程与进程" class="headerlink" title="线程与进程"></a>线程与进程</h3><h4 id="线程的概念"><a href="#线程的概念" class="headerlink" title="线程的概念"></a>线程的概念</h4><p><strong>线程</strong>是操作系统能够进行CPU调度的最小单位。它被包含在进程之中，是进程中的实际运作单位。一条线程指的是进程中一个单一顺序的控制流，一个进程中可以并发多个线程，每条线程并行执行不同的任务。</p>
+        <h2 id="Java多线程与并发"><a href="#Java多线程与并发" class="headerlink" title="Java多线程与并发"></a>Java多线程与并发</h2><h3 id="线程与进程"><a href="#线程与进程" class="headerlink" title="线程与进程"></a>线程与进程</h3><h4 id="线程的概念"><a href="#线程的概念" class="headerlink" title="线程的概念"></a>线程的概念</h4><p><strong>线程</strong>是操作系统能够进行CPU调度的最小单位。它被包含在进程之中，是进程中的实际运作单位。一条线程指的是进程中一个单一顺序的控制流，一个进程中可以并发多个线程，每条线程并行执行不同的任务。</p>
 <h4 id="进程的概念"><a href="#进程的概念" class="headerlink" title="进程的概念"></a>进程的概念</h4><p><strong>进程</strong>是计算机中的程序关于某数据集合上的一次运行活动，是系统进行资源分配的基本单位。进程是一个实体。每一个进程都有它自己的地址空间，一般情况下，包括文本区域、数据区域和堆栈。文本区域存储处理器执行的代码；数据区域存储变量和进程执行期间使用的动态分配的内存；堆栈区域存储着活动过程调用的指令和本地变量。进程是一个“执行中的程序”。</p>
 <h4 id="进程和线程的关系"><a href="#进程和线程的关系" class="headerlink" title="进程和线程的关系"></a>进程和线程的关系</h4><p>（1）一个线程只能属于一个进程，而一个进程可以有多个线程，但至少有一个线程。 </p>
 <p>（2）资源分配给进程，同一进程的所有线程共享该进程的所有资源。 </p>
@@ -343,538 +277,39 @@
 <h4 id="关于锁的参考"><a href="#关于锁的参考" class="headerlink" title="关于锁的参考"></a>关于锁的参考</h4><p><a href="https://zhuanlan.zhihu.com/p/71156910" target="_blank" rel="noopener">通俗易懂 悲观锁、乐观锁、可重入锁、自旋锁、偏向锁、轻量/重量级锁、读写锁、各种锁及其Java实现！</a></p>
 <h3 id="线程池"><a href="#线程池" class="headerlink" title="线程池"></a>线程池</h3><p>参考：<a href="https://www.cnblogs.com/dolphin0520/p/3932921.html" target="_blank" rel="noopener">Java并发编程：线程池的使用</a></p>
 
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
+          <div class="post-tags">
+              <a href="/tags/Java-%E5%A4%9A%E7%BA%BF%E7%A8%8B/" rel="tag"># -Java -多线程</a>
+          </div>
 
         
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/03/05/Java%E6%B3%9B%E5%9E%8B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="Miracle">
-      <meta itemprop="description" content="No pains，no gains">
-    </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Mirac1e's blogs">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/03/05/Java%E6%B3%9B%E5%9E%8B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-title-link" itemprop="url">Java泛型学习笔记</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-03-05 22:48:45 / 修改时间：22:54:31" itemprop="dateCreated datePublished" datetime="2020-03-05T22:48:45+08:00">2020-03-05</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Java/" itemprop="url" rel="index"><span itemprop="name">Java</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="泛型"><a href="#泛型" class="headerlink" title="泛型"></a>泛型</h2><p>在 Java 中增加范型类之前， 泛型程序设计是用继承实现的。比如Arraylist。但是这样做的缺点是在获取一个值时必须进行强制转换，插入时也没有错误检查。</p>
-<p>使用类型参数指示元素类型可以解决这点，编译器可以直接知道类型而不需要进行强制转换，在插入时也可以进行检查避免插入错误类型的对象。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/03/05/Java%E6%B3%9B%E5%9E%8B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
         
-      
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/03/05/Java%E6%B3%9B%E5%9E%8B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="prev" title="Java泛型学习笔记">
+      <i class="fa fa-chevron-left"></i> Java泛型学习笔记
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2020/03/09/Java%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6/" rel="next" title="Java集合框架">
+      Java集合框架 <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
       </footer>
-  </article>
-  
-  
-  
-
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/03/02/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E5%9B%9B%EF%BC%89/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="Miracle">
-      <meta itemprop="description" content="No pains，no gains">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Mirac1e's blogs">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/03/02/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E5%9B%9B%EF%BC%89/" class="post-title-link" itemprop="url">Java基础知识复习整理（四）</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-03-02 20:04:34" itemprop="dateCreated datePublished" datetime="2020-03-02T20:04:34+08:00">2020-03-02</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-03-05 14:27:31" itemprop="dateModified" datetime="2020-03-05T14:27:31+08:00">2020-03-05</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Java/" itemprop="url" rel="index"><span itemprop="name">Java</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
     
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h2><p>接口不是类，而是对类的一组需求描述，这些类要遵从接口描述的统一格式进行定义。</p>
-<p>接口中所有的方法都自动地属于public，因此在接口中声明方法时不必提供关键字public。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//Java中的Comparable接口</span></span><br><span class="line"><span class="comment">//该接口只有一个方法，有些接口可能包含多个方法，还可以定义常量</span></span><br><span class="line"><span class="comment">//接口不能有实例域！原则上也不能有静态方法，但是Java SE 8中允许在接口中增加静态方法</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Comparable</span>&lt;<span class="title">T</span>&gt;</span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">CompareTo</span><span class="params">(T other)</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/03/02/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E5%9B%9B%EF%BC%89/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/03/01/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E4%B8%89%EF%BC%89/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="Miracle">
-      <meta itemprop="description" content="No pains，no gains">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Mirac1e's blogs">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/03/01/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E4%B8%89%EF%BC%89/" class="post-title-link" itemprop="url">Java基础知识复习整理（三）</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-03-01 20:02:09" itemprop="dateCreated datePublished" datetime="2020-03-01T20:02:09+08:00">2020-03-01</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-03-02 20:19:17" itemprop="dateModified" datetime="2020-03-02T20:19:17+08:00">2020-03-02</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Java/" itemprop="url" rel="index"><span itemprop="name">Java</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h1><p>继承是面向对象的重要概念，在Java中不支持多继承。</p>
-<h2 id="继承的特性"><a href="#继承的特性" class="headerlink" title="继承的特性"></a>继承的特性</h2><ul>
-<li>子类拥有父类非 private 的属性、方法。</li>
-<li>子类可以拥有自己的属性和方法，即子类可以对父类进行扩展。</li>
-<li>子类可以用自己的方式实现父类的方法。</li>
-<li>Java 的继承是单继承，但是可以多重继承，单继承就是一个子类只能继承一个父类，多重继承就是，例如 A 类继承 B 类，B 类继承 C 类，所以按照关系就是 C 类是 B 类的父类，B 类是 A 类的父类，这是 Java 继承区别于 C++ 继承的一个特性。</li>
-<li>提高了类之间的耦合性（继承的缺点，耦合度高就会造成代码之间的联系越紧密，代码独立性越差）。</li>
-</ul>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/03/01/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E4%B8%89%EF%BC%89/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/02/27/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E4%BA%8C%EF%BC%89/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="Miracle">
-      <meta itemprop="description" content="No pains，no gains">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Mirac1e's blogs">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/02/27/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E4%BA%8C%EF%BC%89/" class="post-title-link" itemprop="url">Java基础知识复习整理（二）</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-02-27 21:58:55" itemprop="dateCreated datePublished" datetime="2020-02-27T21:58:55+08:00">2020-02-27</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-03-02 20:17:30" itemprop="dateModified" datetime="2020-03-02T20:17:30+08:00">2020-03-02</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Java/" itemprop="url" rel="index"><span itemprop="name">Java</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="对象与类"><a href="#对象与类" class="headerlink" title="对象与类"></a>对象与类</h1><p>面向对象程序设计(简称OOP)是当今主流的程序设计范型，它已经取代了20世纪70年代的“结构化”过程化程序设计开发技术。Java是完全面向对象的， 必须熟悉OOP才能够编写Java程序。</p>
-<h2 id="类"><a href="#类" class="headerlink" title="类"></a>类</h2><p>类是构造对象的模板。由类构造对象的过程称为创建类的实例。对象中的数据称为实例域，操作数据的过程称为方法。对于特定的实例都有一组特定的实例域值，这些值的集合就是对象的当前状态。无论何时，只要像对象发送一个消息，他的状态就有可能发生改变。</p>
-<h2 id="类与类的关系"><a href="#类与类的关系" class="headerlink" title="类与类的关系"></a>类与类的关系</h2><p>依赖(Dependency)是一种”use-a”关系，大多数情况下依赖关系体现在某个类的方法使用另一个类的对象作为参数。</p>
-<p>聚合(Aggregation)是一种“ has-a” 关系，是一种具体且易于理解的关系。例如，一个Order对象包含一些Item对象。聚合关系意味着类 A 的对象包含类 B 的对象。 </p>
-<p>继承(Inheritance)是一种”is-a”关系，子类从父类中继承了一些方法以及参数。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/02/27/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E4%BA%8C%EF%BC%89/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/02/27/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E4%B8%80%EF%BC%89/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="Miracle">
-      <meta itemprop="description" content="No pains，no gains">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Mirac1e's blogs">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/02/27/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E4%B8%80%EF%BC%89/" class="post-title-link" itemprop="url">Java基础知识复习整理（一）</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-02-27 20:30:22" itemprop="dateCreated datePublished" datetime="2020-02-27T20:30:22+08:00">2020-02-27</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-03-02 20:42:19" itemprop="dateModified" datetime="2020-03-02T20:42:19+08:00">2020-03-02</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Java/" itemprop="url" rel="index"><span itemprop="name">Java</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="Java基础知识复习整理（一）"><a href="#Java基础知识复习整理（一）" class="headerlink" title="Java基础知识复习整理（一）"></a>Java基础知识复习整理（一）</h1><h2 id="1-Java数据类型"><a href="#1-Java数据类型" class="headerlink" title="1.Java数据类型"></a>1.Java数据类型</h2><p>在Java中，一共有8种基本数据类型，其中包括4种整型，2种浮点类型和1中用于表示Unicode编码的字符单元的字符类型char和1中用于表示真值的布尔(boolean)类型。</p>
-<h3 id="1-1-整型"><a href="#1-1-整型" class="headerlink" title="1.1    整型"></a>1.1    整型</h3><table>
-<thead>
-<tr>
-<th align="center">类型</th>
-<th align="center">存储需求</th>
-<th align="center">取值范围</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">byte</td>
-<td align="center">1字节</td>
-<td align="center">-128~127</td>
-</tr>
-<tr>
-<td align="center">short</td>
-<td align="center">2字节</td>
-<td align="center">-32 768~32 767</td>
-</tr>
-<tr>
-<td align="center">int</td>
-<td align="center">4字节</td>
-<td align="center">-2 147 483 648~2 147 483 647</td>
-</tr>
-<tr>
-<td align="center">long</td>
-<td align="center">8字节</td>
-<td align="center">-9 223 372 036 854 775 808~9 223 372 036 854 775 807</td>
-</tr>
-</tbody></table>
-<p>整型用于表示没有小数部分的数值，允许为负数。与C++不同，Java整型的范围与运行Java代码的机器无关，这也是Java可以在各个平台方便移植的原因之一。</p>
-<p>从 Java7 开始， 加上前缀 0b 或 0B 就可以写二进制数。例如，0b1001就是 9。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/02/27/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0%E6%95%B4%E7%90%86%EF%BC%88%E4%B8%80%EF%BC%89/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/02/26/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="Miracle">
-      <meta itemprop="description" content="No pains，no gains">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Mirac1e's blogs">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/02/26/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-02-26 19:24:40" itemprop="dateCreated datePublished" datetime="2020-02-26T19:24:40+08:00">2020-02-26</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
   </article>
   
   
   
 
   </div>
-
-  
-
 
 
           </div>
@@ -925,6 +360,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Java多线程与并发"><span class="nav-number">1.</span> <span class="nav-text">Java多线程与并发</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#线程与进程"><span class="nav-number">1.1.</span> <span class="nav-text">线程与进程</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#线程的概念"><span class="nav-number">1.1.1.</span> <span class="nav-text">线程的概念</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#进程的概念"><span class="nav-number">1.1.2.</span> <span class="nav-text">进程的概念</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#进程和线程的关系"><span class="nav-number">1.1.3.</span> <span class="nav-text">进程和线程的关系</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#进程与线程的区别"><span class="nav-number">1.1.4.</span> <span class="nav-text">进程与线程的区别</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#线程创建的方法"><span class="nav-number">1.2.</span> <span class="nav-text">线程创建的方法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#实现Runnable接口"><span class="nav-number">1.2.1.</span> <span class="nav-text">实现Runnable接口</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#继承Thread类"><span class="nav-number">1.2.2.</span> <span class="nav-text">继承Thread类</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#通过-Callable-和-Future-创建线程"><span class="nav-number">1.2.3.</span> <span class="nav-text">通过 Callable 和 Future 创建线程</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#创建线程的三种方式的对比"><span class="nav-number">1.2.4.</span> <span class="nav-text">创建线程的三种方式的对比</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#线程状态"><span class="nav-number">1.3.</span> <span class="nav-text">线程状态</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#线程属性"><span class="nav-number">1.4.</span> <span class="nav-text">线程属性</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#线程优先级"><span class="nav-number">1.4.1.</span> <span class="nav-text">线程优先级</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#守护线程"><span class="nav-number">1.4.2.</span> <span class="nav-text">守护线程</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#同步"><span class="nav-number">1.5.</span> <span class="nav-text">同步</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#锁对象"><span class="nav-number">1.5.1.</span> <span class="nav-text">锁对象</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#条件对象"><span class="nav-number">1.5.2.</span> <span class="nav-text">条件对象</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#synchronized-关键字"><span class="nav-number">1.5.3.</span> <span class="nav-text">synchronized 关键字</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Volatile-域"><span class="nav-number">1.5.4.</span> <span class="nav-text">Volatile 域</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#读写锁"><span class="nav-number">1.5.5.</span> <span class="nav-text">读写锁</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#关于锁的参考"><span class="nav-number">1.5.6.</span> <span class="nav-text">关于锁的参考</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#线程池"><span class="nav-number">1.6.</span> <span class="nav-text">线程池</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
